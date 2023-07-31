@@ -1,15 +1,26 @@
 
 li { 
     display: inline-block;
+    display: wrap; 
     list-style-type: none;
-    padding: 5px 5px 5px 5px; 
-    border-top: 2px black;
-    border-bottom: 2px black;
+    font-size: small;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+}
+
+ul { 
+    border-top: 10px black;
+    border-bottom: 10px black;
+}
+
+.author { 
+    color: red;
 }
 
 .newspaper-container {
+    display: inline-block; 
+    align-items: center;
     width: 700px; 
-    border-radius: 5; 
+    border-radius: 5px; 
     box-shadow: 2px 2px 3px black;
     align-items: center;
 }
@@ -24,8 +35,8 @@ h2, h4 {
     text-align: center;
 }
 
-.more-articles{
-    align-items: left;
+.more-articles { 
+    align-self: auto;
     font-family: 'Gill Sans';
 }
 
